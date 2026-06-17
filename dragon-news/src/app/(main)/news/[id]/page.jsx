@@ -1,10 +1,10 @@
 
-const page = () => {
+const NewsDetailsPage = () => {
     return (
         <div>
-            dynamic page
+          NewsDetailsPage
         </div>
     );
 };
 
-export default page;
+export default NewsDetailsPage;
