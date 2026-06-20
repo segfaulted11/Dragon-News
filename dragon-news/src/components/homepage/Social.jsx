@@ -5,12 +5,12 @@ const Social = () => {
             <h2 className="font-bold text-center">LogIn With</h2>
             <button className="btn btn-error">
                 <FaGoogle />
-                Login With Google
+                LogIn With Google
             </button>
             <button className="btn btn-error">
                 <FaGithub />
 
-                Login With Github
+                LogIn With Github
             </button>
         </div>
     );
