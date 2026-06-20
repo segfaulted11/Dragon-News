@@ -1,6 +1,6 @@
 import { UserCircle2Icon } from "lucide-react";
-import Link from "next/link";
 import NavLink from "./NavLink";
+import Link from "next/link";
 
 const Navbar = () => {
     return (
@@ -20,7 +20,10 @@ const Navbar = () => {
            </ul>
            <div className="flex items-center gap-3">
             <UserCircle2Icon/>
+            <Link href={`/login`}
+            >
             <button className="btn btn-error">LogIn</button>
+            </Link>
            </div>
         </div>
     );
